@@ -1,0 +1,176 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+.top-image{
+    display: inline-block;
+    border-radius: 100%;
+    height: 450px;
+    padding: 30px;
+
+}
+
+.nav-bar{
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 400px;
+    margin-top: 10px;
+    display: inline-block;
+    
+    
+}
+   
+a{
+ justify-content: space-between;
+ padding: 20px;
+ margin: 90px;
+ border-radius: 20px;
+ display: inline-block;
+ font-size: 20px;
+ text-decoration: none;
+}
+
+
+.main-text{
+    background-color: #DDB9A3;
+    color:white;
+    font-family: "Roboto Mono", monospace;
+    padding: 80px;
+    margin: 60px;
+    font-size: 30px;
+
+}
+
+a:nth-child(1){
+    color:white;
+    background-color: #FF764E;
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+}
+
+a:nth-child(2){
+    color:white;
+    background-color: #5ED3EB;
+    font-family: "Roboto Mono", monospace;
+}
+a:nth-child(3){
+    color:white;
+    background-color: #FFCD69;
+    font-family: "Roboto Mono", monospace;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:  65px;
+    position: absolute;
+    margin: -450px 600px;
+    text-align: center;
+    
+}
+
+h2{
+    font-family: "Roboto Mono", monospace;
+    color: black;
+    position: absolute;
+    margin: -300px 600px;
+    font-size: 25px;
+    margin-right: 50px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+h3{
+    font-family: "Roboto Mono", monospace;
+    color: black;
+    position: absolute;
+    margin: -280px 600px;
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.fire {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin-left: 700px; 
+   
+}
+
+.fire-text{
+  
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+    padding: 80px;
+    margin: 60px;
+    font-weight: 300;
+
+}
+
+
+i{
+    font-weight: bold;
+    color: black;
+}
+
+i:hover{
+    transition-delay: 0.3s;
+    color: red;
+    cursor: pointer;
+}
+
+.truck {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin-left: 700px; 
+}
+
+.truck-text{
+  
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+    padding: 80px;
+    margin: 60px;
+    font-weight: 300;
+
+}
+
+.footer-img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  padding-right: 400px;
+  width: 1920px;
+  overflow: hidden;
+  
+    
+
+
+}
+
+footer{
+background-color: #F9E7DC;
+
+}
